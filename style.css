@@ -1,0 +1,202 @@
+*{
+    margin: 10px;
+}
+
+section{
+    margin-bottom: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.featured-tutorials {
+    padding: 2rem;
+    text-align: center;
+}
+
+.featured-tutorials article {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.featured-tutorials article h3 {
+    margin-top: 0;
+}
+
+.featured-tutorials article a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.testimonials {
+    background-color: #e0e0e0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonials blockquote {
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+/* Add these styles to your existing CSS file */
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.search-bar input {
+    padding: 0.5rem;
+    width: 70%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+.tutorials {
+    padding: 2rem;
+    text-align: center;
+}
+
+.tutorials article {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tutorials article h3 {
+    margin-top: 0;
+}
+
+.tutorials article a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Add these styles to your existing CSS file */
+
+.mission, .team, .story {
+    padding: 2rem;
+    text-align: center;
+}
+
+.team article {
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+article{
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.team article h3 {
+    margin-top: 0;
+}
+/* Add these styles to your existing CSS file */
+
+.contact-info, .contact-form {
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin-top: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
